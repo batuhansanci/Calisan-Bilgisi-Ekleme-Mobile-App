@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/editId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID Giriniz"
+            android:inputType="number"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="İsim Giriniz"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Yaş Giriniz"
+            android:inputType="number"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editSalary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Maaş Giriniz"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editRetirementAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Emeklilik Yaşı Giriniz"
+            android:inputType="number"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Güncelle"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sil" />
+    </LinearLayout>
+</ScrollView>
